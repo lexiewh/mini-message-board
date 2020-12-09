@@ -1,8 +1,33 @@
+* {
+    background-color: whitesmoke;
+    font-family: Verdana;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    margin-top: 60px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 12px 0px rgba(204, 204, 204, 0.69);
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: white;
+    margin: 20px;
+}
+
+li {
+    padding: 5px;
+    list-style: none;
+    text-align: left;
+    background-color: white;
 }
 
 a {
-  color: #00B7FF;
+    background-color: white;
+    font-size: 14px;
+    color: midnightblue;
 }

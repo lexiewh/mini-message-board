@@ -2,6 +2,7 @@ extends layout
 
 block content
   h1= title
+  a(href="new") Add new post
   ul
   each message in messages
     li= `${message.user} says: ${message.text}`
