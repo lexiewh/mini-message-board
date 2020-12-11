@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<head>
-    <title>Add new message</title>
-</head>
-<body>
-    <form method="POST" action="/new">
-        <input type="text" name="messageUser">
-        <input type="text" name="messageText">
-        <input type="submit" value="Submit">
-    </form>
-</body>
+extends layout
 
-</html>
+block content
+    h1= 'Add new message'
+    form(action="/new", method="post")
+        .user
+            label(for="user") Name
+            input(type="text" name="messageUser")
+        .text
+            label(for="text") Message
+            input(type="text" name="messageText")
+        button(type="submit" value="submit") Submit
